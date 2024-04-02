@@ -1,6 +1,7 @@
 # MicrofrontendAppContent
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
+The contents of this app are delivered through the shell microfrontend here https://github.com/coolsurendar/microfrontend-app-shell
 
 # Commands used to generate
 
