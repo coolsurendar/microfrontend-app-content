@@ -5,8 +5,10 @@ module.exports = withNativeFederation({
   name: 'microfrontend-app-content',
 
   exposes: {
-    './Component': './src/app/app.component.ts',
+    './PackageListComponent': './src/app/package-list/package-list.component.ts',
+    './routes': './src/app/app.routes.ts',
   },
+
 
   shared: {
     ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),
@@ -19,5 +21,5 @@ module.exports = withNativeFederation({
     'rxjs/webSocket',
     // Add further packages you don't need at runtime
   ]
-  
+
 });
