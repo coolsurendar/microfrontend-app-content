@@ -2,6 +2,25 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
 
+# Commands used to generate
+
+1. Generate new application
+`ng new microfrontend-app-content`
+
+2. Permanently change port to 4300
+
+`"serve": {
+  "builder": "@angular-devkit/build-angular:dev-server",
+  "options": {
+    "port": 4300
+  },`
+
+3. Generate native federation link
+
+`ng add @angular-architects/native-federation --project mfe1 --port 4300 --type remote
+`
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
