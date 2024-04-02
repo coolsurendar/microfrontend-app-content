@@ -9,5 +9,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'microfrontend-app-content';
+  title = 'microfrontend-app-content loaded from app 2';
 }
